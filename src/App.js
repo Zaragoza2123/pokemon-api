@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import CatchEmAll from './components/CatchEmAll';
+import CatchEmAllAxios from './components/CatchEmAllAxios';
 
 function App() {
   return (
     <div className="App">
       <h1>Pokedex</h1>
-      <CatchEmAll></CatchEmAll>
+      <CatchEmAllAxios></CatchEmAllAxios>
     </div>
   );
 }
